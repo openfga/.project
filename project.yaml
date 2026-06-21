@@ -1,0 +1,83 @@
+# .project metadata for OpenFGA
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set slack_channels
+# TODO: Set identity_type under legal (has_dco, has_cla)
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "openffa"
+name: "OpenFGA"
+description: "OpenFGA is a high performance and flexible authorization/permission system built for developers and inspired by Google Zanzibar"
+type: "project"
+project_lead: "adriantam" # TODO: AUTO-DETECTED — please verify
+# TODO: Set CNCF Slack channel(s)
+# slack_channels:
+#   - name: "#openffa"
+#     primary: true
+
+maturity_log:
+  - phase: "incubating"
+    date: "2026-06-21T16:13:10Z"
+    issue: "https://github.com/cncf/sandbox/issues/209" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/openfga/dotnet-sdk"
+  - "https://github.com/openfga/sample-stores"
+  - "https://github.com/openfga/vscode-ext"
+  - "https://github.com/openfga/helm-charts"
+  - "https://github.com/openfga/cli"
+  - "https://github.com/openfga/frontend-utils"
+  - "https://github.com/openfga/go-sdk"
+  - "https://github.com/openfga/openfga"
+  - "https://github.com/openfga/community"
+  - "https://github.com/openfga/java-sdk"
+  - "https://github.com/openfga/openfga.dev"
+  - "https://github.com/openfga/js-sdk"
+  - "https://github.com/openfga/python-sdk"
+
+website: "https://openfga.dev"
+
+artwork: "https://raw.githubusercontent.com/cncf/artwork/master/projects/openfga/icon/color/openfga-icon-color.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/openfga/openfga/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "openfga/openfga"
+
+social:
+  twitter: "https://twitter.com/OpenFGA"
+
+security:
+  policy:
+    path: "https://github.com/openfga/.github/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/openfga/openfga/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/openfga/openfga/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/openfga/.github/blob/main/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/openfga/openfga/blob/main/LICENSE"
+  identity_type:
+    has_dco: true
+    has_cla: false
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/openfga/openfga/blob/main/README.md"
+
+
+# CLOMonitor Score: 99/100
+# Documentation: 100 | License: 100 | Best Practices: 95 | Security: 88

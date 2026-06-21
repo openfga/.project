@@ -1,0 +1,36 @@
+# Maintainer roster for OpenFGA
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+
+#  Maintainers: Please connect your GitHub handle to your LFID on openprofile.dev to enable automatic access to CNCF resources. The system will use your primary email address for setup.
+maintainers:
+  - project_id: "openffa"
+    org: "openfga"
+    teams:
+      - name: "project-maintainers"
+        members:
+          - adriantam
+          - aaguiarz
+          - SoulPancake
+          - DanCech
+          - dyeam0
+          - ewanharris
+          - curfew-marathon
+          - jimmyjames
+          - jpadilla
+          - senojj
+          - justincoh
+          - mauriceackel
+          - pdillon
+          - poovamraj
+          - rhamzeh
+          - saad-h1
+          - sergiught
+          - Siddhant-K-code
+          - stevehobbsdev
+          - ttrzeng
+          - tylernix
+          - vic-dev
+          - willvedd
+          - elbuo8
+          - yissellokta
