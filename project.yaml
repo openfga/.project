@@ -98,8 +98,10 @@ documentation:
     path: "https://github.com/openfga/openfga/blob/main/README.md"
   api:
     path: "https://openfga.dev/api/service"
-  docs:
+  support:
     path: "https://openfga.dev/docs"
+  architecture:
+    path: "https://github.com/openfga/openfga/blob/main/docs/architecture/architecture.md"
 
 landscape:
   category: "Security & Compliance"
