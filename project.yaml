@@ -76,14 +76,14 @@ package_managers:
   nuget:
     - "OpenFga.SDK"
   pypi:
-    - "openfga-sdk
+    - "openfga-sdk"
     
 governance:
   contributing:
     path: "https://github.com/openfga/openfga/blob/main/CONTRIBUTING.md"
   code_of_conduct:
     path: "https://github.com/openfga/.github/blob/main/CODE_OF_CONDUCT.md"
-  codeowners::
+  codeowners:
     path: "https://github.com/openfga/openfga/blob/main/.github/CODEOWNERS"
 
 legal:
