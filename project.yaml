@@ -1,8 +1,6 @@
 # .project metadata for OpenFGA
 # Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
 
-# TODO: Add package_managers if distributed via registries
-adopters: https://github.com/openfga/community/blob/main/ADOPTERS.md
 schema_version: "1.0.0"
 slug: "openfga"
 name: "OpenFGA"
@@ -48,14 +46,8 @@ website: "https://openfga.dev"
 
 artwork: "https://raw.githubusercontent.com/cncf/artwork/master/projects/openfga/icon/color/openfga-icon-color.svg"
 
-# TODO: Add ADOPTERS.md if your project tracks adopters
-# adopters:
-#   path: "https://github.com/openfga/openfga/blob/main/ADOPTERS.md"
-
-
-# TODO: Add package manager identifiers if your project is distributed via registries
-# package_managers:
-#   docker: "openfga/openfga"
+adopters:
+  path: "https://github.com/openfga/community/blob/main/ADOPTERS.md"
 
 social:
   twitter: "https://twitter.com/OpenFGA"
