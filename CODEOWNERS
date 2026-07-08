@@ -1,3 +1,3 @@
 # CODEOWNERS for .project metadata repository
 # Changes to project metadata require maintainer review.
-* @adriantam @aaguiarz @SoulPancake @DanCech @dyeam0 @ewanharris @curfew-marathon @jimmyjames @jpadilla @senojj @justincoh @mauriceackel @pdillon @poovamraj @rhamzeh @saad-h1 @sergiught @Siddhant-K-code @stevehobbsdev @ttrzeng @tylernix @vic-dev @willvedd @elbuo8 @yissellokta 
+* @openfga/product @openfga/admin @openfga/community

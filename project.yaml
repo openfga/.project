@@ -1,42 +1,49 @@
 # .project metadata for OpenFGA
 # Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
 
-# TODO: Set slack_channels
-# TODO: Set identity_type under legal (has_dco, has_cla)
-# TODO: Add adopters list (ADOPTERS.md)
 # TODO: Add package_managers if distributed via registries
-
+adopters: https://github.com/openfga/community/blob/main/ADOPTERS.md
 schema_version: "1.0.0"
-slug: "openffa"
+slug: "openfga"
 name: "OpenFGA"
 description: "OpenFGA is a high performance and flexible authorization/permission system built for developers and inspired by Google Zanzibar"
 type: "project"
-project_lead: "adriantam" # TODO: AUTO-DETECTED — please verify
-# TODO: Set CNCF Slack channel(s)
-# slack_channels:
-#   - name: "#openffa"
-#     primary: true
+project_lead: "aaguiarz"
+slack_channels:
+  - name: "#openfga"
+    primary: true
 
 maturity_log:
+  - phase: "sandbox"
+    date: "2022-09-13T03:00:27Z"
+    issue: "https://github.com/cncf/sandbox/issues/209" 
   - phase: "incubating"
-    date: "2026-06-21T16:13:10Z"
-    issue: "https://github.com/cncf/sandbox/issues/209" # TODO: AUTO-DETECTED — please verify
+    date: "2026-10-29T03:31:40Z"
+    issue: "https://github.com/cncf/toc/issues/1287" 
 
 repositories:
+  - "https://github.com/openfga/openfga"
+  - "https://github.com/openfga/openfga.dev"
+  - "https://github.com/openfga/cli"
+  - "https://github.com/openfga/helm-charts"
+  - "https://github.com/openfga/java-sdk"
+  - "https://github.com/openfga/go-sdk"
+  - "https://github.com/openfga/js-sdk"
   - "https://github.com/openfga/dotnet-sdk"
+  - "https://github.com/openfga/python-sdk"
+  - "https://github.com/openfga/terraform-provider-openfga"
+  - "https://github.com/openfga/action-openfga-test"
+  - "https://github.com/openfga/action-openfga-deploy"
   - "https://github.com/openfga/sample-stores"
   - "https://github.com/openfga/vscode-ext"
-  - "https://github.com/openfga/helm-charts"
-  - "https://github.com/openfga/cli"
-  - "https://github.com/openfga/frontend-utils"
-  - "https://github.com/openfga/go-sdk"
-  - "https://github.com/openfga/openfga"
+  - "https://github.com/openfga/intellij-plugin"
   - "https://github.com/openfga/community"
-  - "https://github.com/openfga/java-sdk"
-  - "https://github.com/openfga/openfga.dev"
-  - "https://github.com/openfga/js-sdk"
-  - "https://github.com/openfga/python-sdk"
-
+  - "https://github.com/openfga/language"
+  - "https://github.com/openfga/sdk-generator"
+  - "https://github.com/openfga/spring-boot-starter"
+  - "https://github.com/openfga/api"
+  - "https://github.com/openfga/agent-skills"
+  
 website: "https://openfga.dev"
 
 artwork: "https://raw.githubusercontent.com/cncf/artwork/master/projects/openfga/icon/color/openfga-icon-color.svg"
@@ -52,6 +59,8 @@ artwork: "https://raw.githubusercontent.com/cncf/artwork/master/projects/openfga
 
 social:
   twitter: "https://twitter.com/OpenFGA"
+  linkedin: "https://www.linkedin.com/company/openfga"
+  youtube: "https://www.youtube.com/@OpenFGA"
 
 security:
   policy:
@@ -59,25 +68,50 @@ security:
   contact:
     advisory_url: "https://github.com/openfga/openfga/security/advisories/new"
 
+package_managers:
+  docker:
+    - "https://hub.docker.com/r/openfga/openfga"
+    - "https://hub.docker.com/r/openfga/cli"
+  scoop:
+    - "openfga"
+  homebrew: 
+    - "openfga"
+    - "openfga/tap/fga"
+  npm: 
+    - "@openfga/sdk"
+  maven:
+    - "https://central.sonatype.com/artifact/dev.openfga/openfga-sdk"
+  nuget:
+    - "OpenFga.SDK"
+  pypi:
+    - "openfga-sdk
+    
 governance:
   contributing:
     path: "https://github.com/openfga/openfga/blob/main/CONTRIBUTING.md"
   code_of_conduct:
     path: "https://github.com/openfga/.github/blob/main/CODE_OF_CONDUCT.md"
+  codeowners::
+    path: "https://github.com/openfga/openfga/blob/main/.github/CODEOWNERS"
 
 legal:
   license:
     path: "https://github.com/openfga/openfga/blob/main/LICENSE"
   identity_type:
-    has_dco: true
-    has_cla: false
-    dco_url:
-      path: "https://developercertificate.org/"
+    has_dco: false
+    has_cla: true
 
 documentation:
   readme:
     path: "https://github.com/openfga/openfga/blob/main/README.md"
+  api:
+    path: "https://openfga.dev/api/service"
+  docs:
+    path: "https://openfga.dev/docs"
 
+landscape:
+  category: "Security & Compliance"
+  subcategory: "Provisioning"
 
 # CLOMonitor Score: 99/100
 # Documentation: 100 | License: 100 | Best Practices: 95 | Security: 88
