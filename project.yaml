@@ -90,8 +90,10 @@ legal:
   license:
     path: "https://github.com/openfga/openfga/blob/main/LICENSE"
   identity_type:
-    has_dco: false
+    has_dco: true
     has_cla: true
+    dco_url:
+      path: "https://developercertificate.org/"
 
 documentation:
   readme:
