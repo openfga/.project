@@ -102,7 +102,7 @@ documentation:
   api:
     path: "https://openfga.dev/api/service"
   support:
-    path: "https://openfga.dev/docs"
+    path: "https://openfga.dev/community"
   architecture:
     path: "https://github.com/openfga/openfga/blob/main/docs/architecture/architecture.md"
 
