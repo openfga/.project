@@ -75,7 +75,7 @@ package_managers:
     - "https://central.sonatype.com/artifact/dev.openfga/openfga-sdk"
     - "https://central.sonatype.com/artifact/dev.openfga/openfga-spring-boot-starter"
   nuget:
-    - "OpenFga.SDK"
+    - "OpenFga.Sdk"
   pypi:
     - "openfga-sdk"
     
