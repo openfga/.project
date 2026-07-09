@@ -73,6 +73,7 @@ package_managers:
     - "@openfga/sdk"
   maven:
     - "https://central.sonatype.com/artifact/dev.openfga/openfga-sdk"
+    - "https://central.sonatype.com/artifact/dev.openfga/openfga-spring-boot-starter"
   nuget:
     - "OpenFga.SDK"
   pypi:
