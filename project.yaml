@@ -53,6 +53,7 @@ social:
   twitter: "https://twitter.com/OpenFGA"
   linkedin: "https://www.linkedin.com/company/openfga"
   youtube: "https://www.youtube.com/@OpenFGA"
+  mastodon: "https://mastodon.social/@openfga"
 
 security:
   policy:
