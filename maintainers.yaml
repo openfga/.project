@@ -9,28 +9,31 @@ maintainers:
     teams:
       - name: "project-maintainers"
         members:
-          - adriantam
           - aaguiarz
-          - SoulPancake
-          - DanCech
-          - ewanharris
+          - adriantam
+          - albertoperdomo
           - curfew-marathon
+          - DanCech
+          - davidpatrick
+          - elbuo8
+          - ewanharris
+          - hemanthreddy7
           - jimmyjames
+          - jnweiner-auth0
           - jpadilla
-          - senojj
           - justincoh
           - mauriceackel
           - pdillon
           - poovamraj
           - rhamzeh
           - saad-h1
+          - senojj
           - sergiught
           - Siddhant-K-code
+          - SoulPancake
           - stevehobbsdev
           - ttrzeng
           - tylernix
           - vic-dev
           - willvedd
-          - elbuo8
           - yissellokta
-          - albertoperdomo
