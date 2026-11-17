@@ -44,7 +44,7 @@ repositories:
   
 website: "https://openfga.dev"
 
-artwork: "https://raw.githubusercontent.com/cncf/artwork/master/projects/openfga/icon/color/openfga-icon-color.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/openfga"
 
 adopters:
   path: "https://github.com/openfga/community/blob/main/ADOPTERS.md"
